@@ -308,7 +308,7 @@ function vowelCounter(vowelstring) {
 }
 console.log(vowelnumber);
 }  
-vowelCounter("eeeedddd sdfsaaatie");
+vowelCounter("eeeedddd sdfsaaatie vbdfoaaeooii");
 
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
