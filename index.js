@@ -314,10 +314,20 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+function vowelCounter(vowelstring) {
+   console.log(vowelstring.split(""));
+    let vowelnumber = 0;
+      for(i = 0; i < vowelstring.length;i++){
+        function returnstring(){
+          if(vowelstring[i].includes("A") || vowelstring[i].includes("E") || vowelstring[i].includes("I") || vowelstring[i].includes("O") || vowelstring[i].includes("U") || vowelstring[i].includes("a") || vowelstring[i].includes("e") || vowelstring[i].includes("i") || vowelstring[i].includes("o") || vowelstring[i].includes("u")){
+            vowelnumber++;
+            return(vowelnumber);
+    }
+  }
+  console.log(returnstring());
 }
-
+}  
+vowelCounter("eeeedddd");
 
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
